@@ -35,7 +35,4 @@ p.title-text {
     color: rgb(97, 97, 97);
     font-size: 18px;
     line-height: 4.444;
-    -moz-transform: matrix( 1.00070473061229,0,0,1.00247715936006,0,0);
-    -webkit-transform: matrix( 1.00070473061229,0,0,1.00247715936006,0,0);
-    -ms-transform: matrix( 1.00070473061229,0,0,1.00247715936006,0,0);
 }
