@@ -36,3 +36,36 @@ p.title-text {
     font-size: 18px;
     line-height: 4.444;
 }
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul.main-nav {
+    display: flex;
+    padding-top: 10px;
+}
+li.main-nav-item {
+    margin-left: 22px;
+    font-size: 14px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid transparent;
+}
+li.main-nav-item:hover {
+    border-bottom: 2px solid rgb(39, 39, 39);
+}
+li.main-nav-item a {
+    color: rgb(39, 39, 39);
+}
+
+.main {
+    background: url('../img/main-background.png');
+    height: 850px;
+}
+
+  
