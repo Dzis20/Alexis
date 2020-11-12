@@ -16,6 +16,7 @@ h1 {
     font-family: "Libre Baskerville";
     line-height: 1.417;
     color: #fff;
+    margin-bottom: 43px;
 }
 
 h2.section-title {
@@ -25,7 +26,7 @@ h2.section-title {
     margin-bottom: 50px;
 }
 
- p {
+p {
     color: rgb(97, 97, 97);
     line-height: 1.8;
     text-align: left;
@@ -53,9 +54,11 @@ ul.main-nav {
 li.main-nav-item {
     margin-left: 22px;
     font-size: 14px;
-    padding-bottom: 7px;
+    padding-bottom: 10px;
+    position: relative;
     border-bottom: 2px solid transparent;
 }
+
 li.main-nav-item:hover {
     border-bottom: 2px solid rgb(39, 39, 39);
 }
@@ -63,9 +66,63 @@ li.main-nav-item a {
     color: rgb(39, 39, 39);
 }
 
+
+/* MAIN */
 .main {
     background: url('../img/main-background.png');
     height: 850px;
+    padding-top: 195px;
 }
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+.main h1 {
+    text-align: center;
+}
+a.main-btn{
+    font-size: 16px;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 3.3;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(252, 95, 69);
+    display: inline-block;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.main-list {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+.main-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+} 
+.main-item img {
+    margin-bottom: 40px;
+}
+.main-item-first p {
+    color: rgb(56, 198, 149);
+}
+.main-item-second p {
+    color: #b27cf5;
+}
+.main-item-third p {
+    color: #feb960;
+}
+  
 
   
